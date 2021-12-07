@@ -24,6 +24,9 @@ gem 'jbuilder', '~> 2.7'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+gem 'devise' # user auth
+gem 'rest-client' # API requests
+gem 'simple_token_authentication', '~> 1.0' # token auth
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
